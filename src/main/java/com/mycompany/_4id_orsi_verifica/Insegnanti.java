@@ -13,10 +13,10 @@ package com.mycompany._4id_orsi_verifica;
 // insegnanti e materie che insegnano e dati personali:
 
 public class Insegnanti {
-    public String cognome;
-    public String informatica;
-    public String tps;
-    public String sistemi;
+    public String cognome; // usiamo String per le stringhe
+    public String informatica; // usiamo String per le stringhe
+    public String tps; // usiamo String per le stringhe 
+    public String sistemi;// usiamo String per le stringhe
     
     
 }

@@ -13,19 +13,18 @@ package com.mycompany._4id_orsi_verifica;
 // studente numero 1 - con relativi dati personali e voti presi:
 
 public class Studente_A {
-    public String nome = "Gabriele";
-    public String cognome = "Darco";
-    public double voto_informatica = 4;
-    public double voto_tps = 8;
-    public double voto_sistemi = 6;
-    public double media_voti;
+    public String nome = "Gabriele"; // usiamo String per le stringhe 
+    public String cognome = "Darco"; // usiamo String per le stringhe
+    public double voto_informatica = 4; // usiamo double per i numeri con la virgola 
+    public double voto_tps = 8; // usiamo double per i numeri con la virgola 
+    public double voto_sistemi = 6; // usiamo double per i numeri con la virgola 
+    public double media_voti; // usiamo double per i numeri con la virgola 
     
 // metodo che si occupa della media aritmetica dei voti 
     
     public double media_voti(){
-    media_voti = (voto_informatica + voto_tps + voto_sistemi) / 3;
-    System.out.println("la media é : " + nome);
-    System.out.println(" " + cognome);
+    media_voti = (voto_informatica + voto_tps + voto_sistemi) / 3; // metodo per media voti /3 per il numero di voti ottenuti da Studente_A
+    System.out.println("la media é : " + media_voti); 
     return media_voti;
 }
 }
